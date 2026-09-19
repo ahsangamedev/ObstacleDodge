@@ -13,7 +13,7 @@ public class Mover : MonoBehaviour
 
     void Update()
     {
-        MovePlayer();   // HEllo this is the test
+        MovePlayer();
 
     }
 
