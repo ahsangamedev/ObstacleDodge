@@ -13,7 +13,7 @@ public class Mover : MonoBehaviour
 
     void Update()
     {
-        MovePlayer();
+        MovePlayer();   // testing the commits
 
     }
 
