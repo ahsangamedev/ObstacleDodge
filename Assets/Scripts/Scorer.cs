@@ -7,9 +7,15 @@ public class Scorer : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        hits ++;
-        print("You have bumped into a thing thi many times: " + hits);
+        if(other.gameObject.tag != "Hit")
+        {
+            hits ++;
+            print("You have bumped into a thing thi many times: " + hits);
 
+        }
+
+
+       
 
 
     }
